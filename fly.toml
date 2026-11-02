@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for premium-kino-2055 on 2026-11-02T17:56:48Z
+# fly.toml app configuration file generated for premium-kino-2055 on 2026-11-02T18:16:26Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -23,5 +23,3 @@ primary_region = 'ams'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
-auto_stop_machines = false
-min_machines_running = 1
